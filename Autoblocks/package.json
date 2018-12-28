@@ -1,0 +1,25 @@
+{
+    "name": "autoblocks",
+    "displayName": "Autoblocks (IEC 61131)",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "autoblocks",
+            "aliases": ["Autoblocks"],
+            "extensions": [".ab"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "autoblocks",
+            "scopeName": "source.autoblocks",
+            "path": "./syntaxes/Autoblocks.tmLanguage.json"
+        }]
+    }
+}
